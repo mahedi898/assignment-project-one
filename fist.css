@@ -1,0 +1,162 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+body{
+    font-family: 'Kanit', sans-serif;
+}
+.top-banner{
+    background: url(images/banner/banner3.png);
+    display: flex;
+    position: relative;
+    /* width: 1600px; */
+    height: 808px;
+}
+.under-top-banner{
+    color: white;
+    text-align: right;
+    right: 250px;
+    top: 200px;
+    position: absolute;
+}
+.top-banner h1{
+    font-size: 65px;
+}
+.button {
+    background-color: aliceblue;
+    width: 1600px;
+    height: 808px;
+    left: 0px;
+    top: 0px;
+    padding: 5px 25px;
+    border-radius: 15px;
+    padding: 10px;
+}
+.top-banner a{
+    color: blue;
+}
+
+.my-plans{
+    margin: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+   
+}
+.skill-container{
+    display: flex;
+    gap: 180px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    height: 300px;
+}
+.skill-titke{
+    font-weight: 700;
+    
+}
+.skill-style h3{
+    margin-top: 100px;
+    font-size: 30px;
+    text-align: center;
+}
+.section-class{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.section-class img{
+    height: 10px;
+    width: 13px;
+
+}
+.section-banner{
+  display: flex;
+  margin-top: 100px;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+/* Three banner */
+.three-banner {
+    width: 1140px;
+  height:300px;
+  background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%),url(images/watch.png);
+    position: relative;
+    display: flex;
+    background-repeat: no-repeat;
+    
+  }
+  .three-btn {
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 200px 0 0 100px;
+    position: absolute;
+    top: 170px;
+    left: 80px;
+  }
+  .three-heading {
+    margin-top: 70px;
+    margin-left: 80px;
+    font-size: 30px;
+  }
+  footer {
+    margin-top: 80px;
+    padding: 0;
+}
+  .footer-div {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .footer-second-div {
+  }
+  
+  .footer-h1 {
+    margin: 16px;
+  }
+  .footer-pragraph {
+    margin: 14px;
+  }
+  .footer-h5 {
+    margin: 10px;
+  }
+  .footer-img {
+    display: flex;
+    gap: 17px;
+    margin-left: 10px;
+
+  }
+  .footer-ft {
+    color: #ffffff;
+    background-color: #151414;
+    justify-content: space-evenly;
+    padding: 90px 0px;
+  }
+  .therr{
+    width: 1100px;
+    margin: 0 auto;
+  }
+  input.input-types {
+    width: 325px;
+    height: 45px;
+    padding: 5px 16px;
+    border-radius: 9px;
+    border: 3px solid blue;
+    background-color: transparent;
+}
+button.footer-btn {
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    margin-top: 17px;
+    padding: 15px 30px;
+}
+.footer-img img {
+    width: 40px;
+    height: 40px;
+}
+  
